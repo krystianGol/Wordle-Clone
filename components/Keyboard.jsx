@@ -30,7 +30,6 @@ const Keyboard = ({ onKeyPress }) => {
           ))}
         </View>
       ))}
-      {/* DELETE BUTTON ON ITS OWN ROW */}
       <View style={styles.row}>
         <ButtonWithLetter style={styles.deleteButton} key={'⌦'} letter={'⌦'} onPress={onKeyPress} />
       </View>
