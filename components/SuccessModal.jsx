@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff',
     borderRadius: 10,
     alignItems: 'center',
-    elevation: 10, // Adds shadow on Android
+    elevation: 10, 
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 5 },
     shadowOpacity: 0.3,
