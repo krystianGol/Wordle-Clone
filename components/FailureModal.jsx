@@ -21,7 +21,7 @@ const FailureModal = ({ visible, onRetry, correctWord }) => {
 const styles = StyleSheet.create({
   overlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Semi-transparent background
+    backgroundColor: 'rgba(0, 0, 0, 0.5)', 
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff',
     borderRadius: 10,
     alignItems: 'center',
-    elevation: 10, // Shadow for Android
+    elevation: 10, 
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 5 },
     shadowOpacity: 0.3,
